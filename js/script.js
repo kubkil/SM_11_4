@@ -21,7 +21,7 @@ HuaweiY.printInfo();
 Phone.prototype.winterSale = function () {
   let date;
   for(date = 0; date <= 31; date++) {
-    if(date >= 20 && date < 28) {
+    if(date >= 20 && date < 21) {
       console.log('Winter sale price for ' + this.brand + ', color ' + this.color + ' is ' + this.price * 0.75 + ' PLN.');
     }
   }
